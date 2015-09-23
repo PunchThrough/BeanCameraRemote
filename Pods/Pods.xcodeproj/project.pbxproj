@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		006B90A73A63C68FB2A5CBA6670E3DD5 /* PTDBeanRadioConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2A7AAF4878CD9702E0555808AFCD8D /* PTDBeanRadioConfig.m */; };
+		04CA4932E2A371B1B8CFB65A1CEAA7B3 /* CBPeripheral+isConnected_Universal.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB1842BCFF8EBF36BCF58B5079D9642 /* CBPeripheral+isConnected_Universal.m */; };
+		15A95D5B2C375A122CBB6C8D298D5D53 /* AppMessageTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ED5FFB0E5330B9FA96355931074CCCF /* AppMessageTypes.h */; };
+		17CE5332AD9CA156D836138EAD0D4D8A /* Profile_Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FC3D8CE11C90BE06E8FFE288091801D /* Profile_Protocol.h */; };
+		1890347AEBBF3EC786A622C3ECE7B513 /* GattSerialMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = DF157D9CE8F0BA85A9DED6C5037748BA /* GattSerialMessage.h */; };
+		19C612B16F7027740F1217E7ABA2A9DA /* CBPeripheral+RSSI_Universal.m in Sources */ = {isa = PBXBuildFile; fileRef = D3495BE1A2E03B8559F48CE7C46A1C8F /* CBPeripheral+RSSI_Universal.m */; };
+		1C9BD05D537FCCE10281C53CBA7B4D8B /* BEAN_Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = C751329BED5CBE905397B15038F7E977 /* BEAN_Helper.h */; };
+		24BDA7320D89E573BE14857E54374699 /* CBPeripheral+isConnected_Universal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E61462269C9C296CA9C0C7FD4DA29E0 /* CBPeripheral+isConnected_Universal.h */; };
+		25985DA7EC565623467FAA18E7938395 /* BleProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 082359170E829A995F8FA747C583AAA6 /* BleProfile.h */; };
+		28E4E6A3C4215DC0131BB19DDF29E446 /* PTDBleDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9F879B6B8D016E13CCE9212A9C8FF3 /* PTDBleDevice.m */; };
+		2C50C928C2C712C73A35146DEB6DA8AC /* PTDBeanManager+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = B80DF58F09907D9C65FCCBE506DBF90C /* PTDBeanManager+Protected.h */; };
+		2E83CB9A39F1520DB2A6588CDECBCB04 /* PTDBEAN_Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D6BFDDC3788AA020C9EAA0A93FB368E0 /* PTDBEAN_Helper.m */; };
+		32444F1F4B0BD007DDBA1484F4B97EAC /* BleProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = D985A7D10039063549034C83A9C83796 /* BleProfile.m */; };
+		3355BA9EA5323F4C7D9A70B5627EC2F6 /* GattTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = ED76AC8CFDD9C420A5FA98FD75FE6787 /* GattTransport.h */; };
+		44C55AC6E5D9DE152675B609EE03BB21 /* BEAN_Globals.h in Headers */ = {isa = PBXBuildFile; fileRef = 662E1638345CDCFBC032AC3875E641C0 /* BEAN_Globals.h */; };
+		4EB56008F432BF6822879E15384F62F3 /* ProfileDelegate_Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 1318446ED61BDC5D241733F8FD6C12A6 /* ProfileDelegate_Protocol.h */; };
+		5432B9BDEEDF5DD6DE00C0C7FCFC3276 /* PTDBeanRadioConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = AA82B507F028E6938B24290540EEE458 /* PTDBeanRadioConfig.h */; };
+		570A3B2AE6AC3E7AD088EC4E00EDA932 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A7808D0A0127AC35E103B1054C6972C /* Foundation.framework */; };
+		5B9B90BF928CDF7A7F2A7EE5E6E7529B /* oad.h in Headers */ = {isa = PBXBuildFile; fileRef = B3B093E2E2958B21451492B70BC0AADB /* oad.h */; };
+		5EC159CD6EE6B9ECB7868CDE509FAC84 /* CBPeripheral+UniqueId.h in Headers */ = {isa = PBXBuildFile; fileRef = FA61F1E585012F117911F5BB0B01DFA8 /* CBPeripheral+UniqueId.h */; };
+		60E32054184D2E114C0E248312A5703C /* AppMessagingLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = B9ACE6BE2D40B1117B2D43CAED19A6D9 /* AppMessagingLayer.h */; };
+		62392D6D0FF507B87C9C67A0665A3A39 /* PTDBeanRemoteFirmwareVersionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B087A12A02B160F43C0DD4E9665C66D /* PTDBeanRemoteFirmwareVersionManager.m */; };
+		640A2DC02DB2CB26EE11C13C8FC79437 /* DevInfoProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 33054B905613825A45998F15C081B7E1 /* DevInfoProfile.m */; };
+		6554562DB6C7601EE2C142FE796F940A /* GattSerialTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 259A229FC5308A6F02DD918EB152707C /* GattSerialTransport.m */; };
+		6C5E4FABD2D2F930B22FEF5E4DBD4DD6 /* GattSerialMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E557657B4BAC71DDF2C1F0253B71732 /* GattSerialMessage.m */; };
+		6EAB086EF4724228998F91179F0DB69C /* Bean-iOS-OSX-SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACA29BDC2B577EEA815E4B3FD1C4A95 /* Bean-iOS-OSX-SDK-dummy.m */; };
+		759A3134B5495F04C8688ED6C6DCFE87 /* AppMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = A048EE9A752EEC8104A4D93F670B9E3A /* AppMessages.h */; };
+		7877357215BD9549573BFC78BB8F6B1E /* GattTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA80D213B4EDAF77A6B47011BA2B406 /* GattTransport.m */; };
+		7B0D70026696C04FA434D2FFEF4D23A1 /* GattSerialTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F5E5A109384A44A61414940CCE3A35 /* GattSerialTransport.h */; };
+		7BC1FC3AA86FABD8D1FE701B7AC65D80 /* NSData+CRC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3125B6DFD445CF50972D62E4BBD96571 /* NSData+CRC.h */; };
+		80C91975213731D5B39C3FA5A50B5B78 /* GattSerialMessageRxAssembler.m in Sources */ = {isa = PBXBuildFile; fileRef = A913A23CE285B8C26B52D66E85BE7177 /* GattSerialMessageRxAssembler.m */; };
+		819BA8E3C42749A979EC15C72B276114 /* PTDBean.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E237D9593D46E6CEE8505F36E8BD2B /* PTDBean.h */; };
+		892D0217812F07B21E803CCB7E6F6761 /* AppMessagingLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8409A12B02429F796E4DA929B206FFDF /* AppMessagingLayer.m */; };
+		92E0761AEB2C18055FCFF911325D5E80 /* PTDBean+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 65A8926C16D525265BB133948AC5D96C /* PTDBean+Protected.h */; };
+		94D47368A2B2ED2C5FAFE166C0F392FD /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5010270CDD048574B7E50DA47A7780AF /* CoreBluetooth.framework */; };
+		958E1DF1D1256A3867685A0383065A6F /* NSData+CRC.m in Sources */ = {isa = PBXBuildFile; fileRef = FC464BEA0BED88E7A36F9B29B90AA2CE /* NSData+CRC.m */; };
+		99163F62E52D6BCE4D28D61D38B826A2 /* PTDBeanRemoteFirmwareVersionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 102A4CE2C9C8B6A6EBC936C0F83FFB8C /* PTDBeanRemoteFirmwareVersionManager.h */; };
+		A2B0708DE52E00258D8D3393EF09B29F /* BatteryProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = C052B4F390408E53E3437CFD63407B61 /* BatteryProfile.h */; };
+		A7EE5902C051617F22C2154ABCCBD6D4 /* GattCharacteristicHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = B7F13F9550D1DDCCF132D3328D0A6DE7 /* GattCharacteristicHandler.h */; };
+		B08D82393118AA384CC18FB32EC775D9 /* BEAN_Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D3B35CC4A0A09513CE28B34FC41899 /* BEAN_Helper.m */; };
+		B8CBF9741B68EE4E4975D02BAF33ACB6 /* PTDBleDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 3756F0B68017F7870301093C30A5B5D8 /* PTDBleDevice.h */; };
+		BA4EA051BAD2E6E214CE8DB2D0DF1CCC /* PTDBeanManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CA40581260A62E68AF9561D4719FED /* PTDBeanManager.h */; };
+		BF5C403134DC3E0B4216BF6648C5C510 /* DevInfoProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E8E9AAB58D692A39C5A586478E86132 /* DevInfoProfile.h */; };
+		C3D66C74845EA1C746705DEA05871670 /* PTDBean.m in Sources */ = {isa = PBXBuildFile; fileRef = 9774DC4929571DED025B52771A5E9B9B /* PTDBean.m */; };
+		C51557636F5A884E7A4891ABFE5CEBA3 /* GattSerialProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 28307EEFD2342E6400F52F7CCE9AC4A8 /* GattSerialProfile.m */; };
+		CFA7E9D1F15F29572499353C74B69F6A /* GattSerialMessageRxAssembler.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F3CE9B51CF266587539C35DB6AFCE2 /* GattSerialMessageRxAssembler.h */; };
+		D22853B1F9F6FBBDA5C0DAA469B022EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A7808D0A0127AC35E103B1054C6972C /* Foundation.framework */; };
+		D3A09F6BE86BA74FAA8AA8F82EC57CD3 /* GattCharacteristicObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B5D16A956DD4D8C57C4559A3C602545 /* GattCharacteristicObserver.h */; };
+		DFF65F9524793D4FD98913FDA674A0A9 /* GattPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = E532AF4D8AC801543099162CAC163982 /* GattPacket.m */; };
+		E2124EA382D4F8136FFD7A79704D4890 /* OadProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = F163DED36A36959AFE06EAB52FED2395 /* OadProfile.m */; };
+		E451B5420828FC571DFB6AC795519EC8 /* OadProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EC62240697D44EE15F527BE423C9224 /* OadProfile.h */; };
+		E5B132A7608159E59D7AFEF5512BDC71 /* PTDBeanManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B42AAB13743BEFB9A79B0BA63A65DC1 /* PTDBeanManager.m */; };
+		E6A90BD37382E3BB7DD537C79F707EBB /* CBPeripheral+UniqueId.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CC084D101263FA780CA9B62BACAB80 /* CBPeripheral+UniqueId.m */; };
+		E8E855DD61E5C45C01FB7A74BEDC438B /* BatteryProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D9CED628956E63DC3A694B14433AF7 /* BatteryProfile.m */; };
+		F031A36E6E7DCAB35BB77C057CEF2BB8 /* GattSerialProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 7827903FB1118438E2F099147AD8EF68 /* GattSerialProfile.h */; };
+		F087783C7234C624743436810F0CC3FF /* PTDBEAN_Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = AC3CDE934E2ACBCA86D4EC81EE653277 /* PTDBEAN_Helper.h */; };
+		F36CA8B9BDAF3699F38EEB119AB7809A /* CBPeripheral+RSSI_Universal.h in Headers */ = {isa = PBXBuildFile; fileRef = 163766CB317524283949949174EAE5E2 /* CBPeripheral+RSSI_Universal.h */; };
+		F386E32F2647CC4A5F5DE63EA60F8293 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 100D89058B8F8383DC85080336B2BE3C /* Pods-dummy.m */; };
+		FFBB5A6BDF8B60CAD5F4F27BA49155CC /* GattPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = FFDB87AB109CFACA233D2364195A1FC7 /* GattPacket.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC5E84348C336B7F305DEBF9337B8E01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 002208781EA69C0251C9A2D877AA4F60;
+			remoteInfo = "Bean-iOS-OSX-SDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		082359170E829A995F8FA747C583AAA6 /* BleProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BleProfile.h; path = source/Profiles/BleProfile.h; sourceTree = "<group>"; };
+		0EA10C867752D8BE4459E968C7076408 /* libBean-iOS-OSX-SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libBean-iOS-OSX-SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		100D89058B8F8383DC85080336B2BE3C /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		102A4CE2C9C8B6A6EBC936C0F83FFB8C /* PTDBeanRemoteFirmwareVersionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PTDBeanRemoteFirmwareVersionManager.h; path = source/Helper/PTDBeanRemoteFirmwareVersionManager.h; sourceTree = "<group>"; };
+		1318446ED61BDC5D241733F8FD6C12A6 /* ProfileDelegate_Protocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ProfileDelegate_Protocol.h; path = source/Profiles/ProfileDelegate_Protocol.h; sourceTree = "<group>"; };
+		15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		163766CB317524283949949174EAE5E2 /* CBPeripheral+RSSI_Universal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CBPeripheral+RSSI_Universal.h"; path = "source/Categories/CBPeripheral+RSSI_Universal.h"; sourceTree = "<group>"; };
+		1CA80D213B4EDAF77A6B47011BA2B406 /* GattTransport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GattTransport.m; path = "source/Profiles/Gatt Serial/Transport/GattTransport.m"; sourceTree = "<group>"; };
+		1DEA849843F2BFA875FB09DD663C43B8 /* 201504270003_BEAN_imgA.bin */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.macbinary; name = 201504270003_BEAN_imgA.bin; path = firmware/201504270003_BEAN_imgA.bin; sourceTree = "<group>"; };
+		1E61462269C9C296CA9C0C7FD4DA29E0 /* CBPeripheral+isConnected_Universal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CBPeripheral+isConnected_Universal.h"; path = "source/Categories/CBPeripheral+isConnected_Universal.h"; sourceTree = "<group>"; };
+		25533DA7952EFBDA8DECF835FBA6E18E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		259A229FC5308A6F02DD918EB152707C /* GattSerialTransport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GattSerialTransport.m; path = "source/Profiles/Gatt Serial/Transport/GattSerialTransport.m"; sourceTree = "<group>"; };
+		28307EEFD2342E6400F52F7CCE9AC4A8 /* GattSerialProfile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GattSerialProfile.m; path = "source/Profiles/Gatt Serial/GattSerialProfile.m"; sourceTree = "<group>"; };
+		3125B6DFD445CF50972D62E4BBD96571 /* NSData+CRC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+CRC.h"; path = "source/Categories/NSData+CRC.h"; sourceTree = "<group>"; };
+		33054B905613825A45998F15C081B7E1 /* DevInfoProfile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DevInfoProfile.m; path = "source/Profiles/Device Info/DevInfoProfile.m"; sourceTree = "<group>"; };
+		3756F0B68017F7870301093C30A5B5D8 /* PTDBleDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PTDBleDevice.h; path = source/Public/PTDBleDevice.h; sourceTree = "<group>"; };
+		37D3B35CC4A0A09513CE28B34FC41899 /* BEAN_Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEAN_Helper.m; path = source/Helper/BEAN_Helper.m; sourceTree = "<group>"; };
+		43D9CED628956E63DC3A694B14433AF7 /* BatteryProfile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BatteryProfile.m; path = source/Profiles/Battery/BatteryProfile.m; sourceTree = "<group>"; };
+		48CC084D101263FA780CA9B62BACAB80 /* CBPeripheral+UniqueId.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CBPeripheral+UniqueId.m"; path = "source/Categories/CBPeripheral+UniqueId.m"; sourceTree = "<group>"; };
+		4ACA29BDC2B577EEA815E4B3FD1C4A95 /* Bean-iOS-OSX-SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Bean-iOS-OSX-SDK-dummy.m"; sourceTree = "<group>"; };
+		4B2A7AAF4878CD9702E0555808AFCD8D /* PTDBeanRadioConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PTDBeanRadioConfig.m; path = source/PTDBeanRadioConfig.m; sourceTree = "<group>"; };
+		4E8E9AAB58D692A39C5A586478E86132 /* DevInfoProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DevInfoProfile.h; path = "source/Profiles/Device Info/DevInfoProfile.h"; sourceTree = "<group>"; };
+		5010270CDD048574B7E50DA47A7780AF /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
+		54F3CE9B51CF266587539C35DB6AFCE2 /* GattSerialMessageRxAssembler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GattSerialMessageRxAssembler.h; path = "source/Profiles/Gatt Serial/Transport/GattSerialMessageRxAssembler.h"; sourceTree = "<group>"; };
+		5ABA3631114CBF789074CCE6FB5BA55C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		5E557657B4BAC71DDF2C1F0253B71732 /* GattSerialMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GattSerialMessage.m; path = "source/Profiles/Gatt Serial/Transport/GattSerialMessage.m"; sourceTree = "<group>"; };
+		641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		65A8926C16D525265BB133948AC5D96C /* PTDBean+Protected.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PTDBean+Protected.h"; path = "source/PTDBean+Protected.h"; sourceTree = "<group>"; };
+		662E1638345CDCFBC032AC3875E641C0 /* BEAN_Globals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEAN_Globals.h; path = source/BEAN_Globals.h; sourceTree = "<group>"; };
+		6B42AAB13743BEFB9A79B0BA63A65DC1 /* PTDBeanManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PTDBeanManager.m; path = source/PTDBeanManager.m; sourceTree = "<group>"; };
+		6BB1842BCFF8EBF36BCF58B5079D9642 /* CBPeripheral+isConnected_Universal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CBPeripheral+isConnected_Universal.m"; path = "source/Categories/CBPeripheral+isConnected_Universal.m"; sourceTree = "<group>"; };
+		6ED5FFB0E5330B9FA96355931074CCCF /* AppMessageTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppMessageTypes.h; path = "App Message Definitions/AppMessageTypes.h"; sourceTree = "<group>"; };
+		7827903FB1118438E2F099147AD8EF68 /* GattSerialProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GattSerialProfile.h; path = "source/Profiles/Gatt Serial/GattSerialProfile.h"; sourceTree = "<group>"; };
+		7B087A12A02B160F43C0DD4E9665C66D /* PTDBeanRemoteFirmwareVersionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PTDBeanRemoteFirmwareVersionManager.m; path = source/Helper/PTDBeanRemoteFirmwareVersionManager.m; sourceTree = "<group>"; };
+		8409A12B02429F796E4DA929B206FFDF /* AppMessagingLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AppMessagingLayer.m; path = source/AppMessages/AppMessagingLayer.m; sourceTree = "<group>"; };
+		8FC3D8CE11C90BE06E8FFE288091801D /* Profile_Protocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Profile_Protocol.h; path = source/Profiles/Profile_Protocol.h; sourceTree = "<group>"; };
+		913BF4A0A616F39E297F4D71B3269A62 /* 201504270003_BEAN_imgB.bin */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.macbinary; name = 201504270003_BEAN_imgB.bin; path = firmware/201504270003_BEAN_imgB.bin; sourceTree = "<group>"; };
+		9774DC4929571DED025B52771A5E9B9B /* PTDBean.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PTDBean.m; path = source/PTDBean.m; sourceTree = "<group>"; };
+		9A7808D0A0127AC35E103B1054C6972C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9B5D16A956DD4D8C57C4559A3C602545 /* GattCharacteristicObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GattCharacteristicObserver.h; path = "source/Profiles/Gatt Serial/Transport/GattCharacteristicObserver.h"; sourceTree = "<group>"; };
+		9EC62240697D44EE15F527BE423C9224 /* OadProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OadProfile.h; path = source/Profiles/OAD/OadProfile.h; sourceTree = "<group>"; };
+		A048EE9A752EEC8104A4D93F670B9E3A /* AppMessages.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppMessages.h; path = "App Message Definitions/AppMessages.h"; sourceTree = "<group>"; };
+		A7F5E5A109384A44A61414940CCE3A35 /* GattSerialTransport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GattSerialTransport.h; path = "source/Profiles/Gatt Serial/Transport/GattSerialTransport.h"; sourceTree = "<group>"; };
+		A913A23CE285B8C26B52D66E85BE7177 /* GattSerialMessageRxAssembler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GattSerialMessageRxAssembler.m; path = "source/Profiles/Gatt Serial/Transport/GattSerialMessageRxAssembler.m"; sourceTree = "<group>"; };
+		A981A6BCF51D74112FE245CF09A3B59C /* Bean-iOS-OSX-SDK-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Bean-iOS-OSX-SDK-Private.xcconfig"; sourceTree = "<group>"; };
+		AA82B507F028E6938B24290540EEE458 /* PTDBeanRadioConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PTDBeanRadioConfig.h; path = source/Public/PTDBeanRadioConfig.h; sourceTree = "<group>"; };
+		AC3CDE934E2ACBCA86D4EC81EE653277 /* PTDBEAN_Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PTDBEAN_Helper.h; path = source/Helper/PTDBEAN_Helper.h; sourceTree = "<group>"; };
+		B3B093E2E2958B21451492B70BC0AADB /* oad.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = oad.h; path = source/Profiles/OAD/oad.h; sourceTree = "<group>"; };
+		B7F13F9550D1DDCCF132D3328D0A6DE7 /* GattCharacteristicHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GattCharacteristicHandler.h; path = "source/Profiles/Gatt Serial/Transport/GattCharacteristicHandler.h"; sourceTree = "<group>"; };
+		B80DF58F09907D9C65FCCBE506DBF90C /* PTDBeanManager+Protected.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PTDBeanManager+Protected.h"; path = "source/PTDBeanManager+Protected.h"; sourceTree = "<group>"; };
+		B9ACE6BE2D40B1117B2D43CAED19A6D9 /* AppMessagingLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppMessagingLayer.h; path = source/AppMessages/AppMessagingLayer.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		C052B4F390408E53E3437CFD63407B61 /* BatteryProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatteryProfile.h; path = source/Profiles/Battery/BatteryProfile.h; sourceTree = "<group>"; };
+		C5E237D9593D46E6CEE8505F36E8BD2B /* PTDBean.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PTDBean.h; path = source/Public/PTDBean.h; sourceTree = "<group>"; };
+		C751329BED5CBE905397B15038F7E977 /* BEAN_Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEAN_Helper.h; path = source/Helper/BEAN_Helper.h; sourceTree = "<group>"; };
+		D1CA40581260A62E68AF9561D4719FED /* PTDBeanManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PTDBeanManager.h; path = source/Public/PTDBeanManager.h; sourceTree = "<group>"; };
+		D3495BE1A2E03B8559F48CE7C46A1C8F /* CBPeripheral+RSSI_Universal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CBPeripheral+RSSI_Universal.m"; path = "source/Categories/CBPeripheral+RSSI_Universal.m"; sourceTree = "<group>"; };
+		D6BFDDC3788AA020C9EAA0A93FB368E0 /* PTDBEAN_Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PTDBEAN_Helper.m; path = source/Helper/PTDBEAN_Helper.m; sourceTree = "<group>"; };
+		D985A7D10039063549034C83A9C83796 /* BleProfile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BleProfile.m; path = source/Profiles/BleProfile.m; sourceTree = "<group>"; };
+		DEC5D2E137A93F2C41B0105A3D6388F0 /* Bean-iOS-OSX-SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bean-iOS-OSX-SDK-prefix.pch"; sourceTree = "<group>"; };
+		DF157D9CE8F0BA85A9DED6C5037748BA /* GattSerialMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GattSerialMessage.h; path = "source/Profiles/Gatt Serial/Transport/GattSerialMessage.h"; sourceTree = "<group>"; };
+		DF558BE3B7BE8A15E62C4FDF14FF9BDC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		E532AF4D8AC801543099162CAC163982 /* GattPacket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GattPacket.m; path = "source/Profiles/Gatt Serial/Transport/GattPacket.m"; sourceTree = "<group>"; };
+		ED76AC8CFDD9C420A5FA98FD75FE6787 /* GattTransport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GattTransport.h; path = "source/Profiles/Gatt Serial/Transport/GattTransport.h"; sourceTree = "<group>"; };
+		F163DED36A36959AFE06EAB52FED2395 /* OadProfile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OadProfile.m; path = source/Profiles/OAD/OadProfile.m; sourceTree = "<group>"; };
+		FA61F1E585012F117911F5BB0B01DFA8 /* CBPeripheral+UniqueId.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CBPeripheral+UniqueId.h"; path = "source/Categories/CBPeripheral+UniqueId.h"; sourceTree = "<group>"; };
+		FA9F879B6B8D016E13CCE9212A9C8FF3 /* PTDBleDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PTDBleDevice.m; path = source/Profiles/PTDBleDevice.m; sourceTree = "<group>"; };
+		FC464BEA0BED88E7A36F9B29B90AA2CE /* NSData+CRC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+CRC.m"; path = "source/Categories/NSData+CRC.m"; sourceTree = "<group>"; };
+		FDDC1615EA7637DBC42B5C17A9CB2B70 /* Bean-iOS-OSX-SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Bean-iOS-OSX-SDK.xcconfig"; sourceTree = "<group>"; };
+		FFDB87AB109CFACA233D2364195A1FC7 /* GattPacket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GattPacket.h; path = "source/Profiles/Gatt Serial/Transport/GattPacket.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A8257B134A175246287DF002B13A480 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570A3B2AE6AC3E7AD088EC4E00EDA932 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBAD82F30570AD5CAB1DC0763DFFE0B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D47368A2B2ED2C5FAFE166C0F392FD /* CoreBluetooth.framework in Frameworks */,
+				D22853B1F9F6FBBDA5C0DAA469B022EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C80BA738D6CDA6C25E2CBED501855B1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C80BA738D6CDA6C25E2CBED501855B1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5010270CDD048574B7E50DA47A7780AF /* CoreBluetooth.framework */,
+				9A7808D0A0127AC35E103B1054C6972C /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				E4C31FDC5C87D3E7BA38C34DEFF60FC1 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		952EEBFAF8F7E620423C9F156F25A506 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */,
+				BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */,
+				100D89058B8F8383DC85080336B2BE3C /* Pods-dummy.m */,
+				641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */,
+				5ABA3631114CBF789074CCE6FB5BA55C /* Pods.debug.xcconfig */,
+				DF558BE3B7BE8A15E62C4FDF14FF9BDC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		9914620B6FBCFD1F1EDB424D7721ED5B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1DEA849843F2BFA875FB09DD663C43B8 /* 201504270003_BEAN_imgA.bin */,
+				913BF4A0A616F39E297F4D71B3269A62 /* 201504270003_BEAN_imgB.bin */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EA10C867752D8BE4459E968C7076408 /* libBean-iOS-OSX-SDK.a */,
+				25533DA7952EFBDA8DECF835FBA6E18E /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D163DCF776B5B5197E7E7EAF7AE700B6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDDC1615EA7637DBC42B5C17A9CB2B70 /* Bean-iOS-OSX-SDK.xcconfig */,
+				A981A6BCF51D74112FE245CF09A3B59C /* Bean-iOS-OSX-SDK-Private.xcconfig */,
+				4ACA29BDC2B577EEA815E4B3FD1C4A95 /* Bean-iOS-OSX-SDK-dummy.m */,
+				DEC5D2E137A93F2C41B0105A3D6388F0 /* Bean-iOS-OSX-SDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Bean-iOS-OSX-SDK";
+			sourceTree = "<group>";
+		};
+		D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				952EEBFAF8F7E620423C9F156F25A506 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E4C31FDC5C87D3E7BA38C34DEFF60FC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF078DA102114CA54F7978F53328B80E /* Bean-iOS-OSX-SDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF078DA102114CA54F7978F53328B80E /* Bean-iOS-OSX-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				6ED5FFB0E5330B9FA96355931074CCCF /* AppMessageTypes.h */,
+				A048EE9A752EEC8104A4D93F670B9E3A /* AppMessages.h */,
+				B9ACE6BE2D40B1117B2D43CAED19A6D9 /* AppMessagingLayer.h */,
+				8409A12B02429F796E4DA929B206FFDF /* AppMessagingLayer.m */,
+				662E1638345CDCFBC032AC3875E641C0 /* BEAN_Globals.h */,
+				C751329BED5CBE905397B15038F7E977 /* BEAN_Helper.h */,
+				37D3B35CC4A0A09513CE28B34FC41899 /* BEAN_Helper.m */,
+				C052B4F390408E53E3437CFD63407B61 /* BatteryProfile.h */,
+				43D9CED628956E63DC3A694B14433AF7 /* BatteryProfile.m */,
+				082359170E829A995F8FA747C583AAA6 /* BleProfile.h */,
+				D985A7D10039063549034C83A9C83796 /* BleProfile.m */,
+				163766CB317524283949949174EAE5E2 /* CBPeripheral+RSSI_Universal.h */,
+				D3495BE1A2E03B8559F48CE7C46A1C8F /* CBPeripheral+RSSI_Universal.m */,
+				FA61F1E585012F117911F5BB0B01DFA8 /* CBPeripheral+UniqueId.h */,
+				48CC084D101263FA780CA9B62BACAB80 /* CBPeripheral+UniqueId.m */,
+				1E61462269C9C296CA9C0C7FD4DA29E0 /* CBPeripheral+isConnected_Universal.h */,
+				6BB1842BCFF8EBF36BCF58B5079D9642 /* CBPeripheral+isConnected_Universal.m */,
+				4E8E9AAB58D692A39C5A586478E86132 /* DevInfoProfile.h */,
+				33054B905613825A45998F15C081B7E1 /* DevInfoProfile.m */,
+				B7F13F9550D1DDCCF132D3328D0A6DE7 /* GattCharacteristicHandler.h */,
+				9B5D16A956DD4D8C57C4559A3C602545 /* GattCharacteristicObserver.h */,
+				FFDB87AB109CFACA233D2364195A1FC7 /* GattPacket.h */,
+				E532AF4D8AC801543099162CAC163982 /* GattPacket.m */,
+				DF157D9CE8F0BA85A9DED6C5037748BA /* GattSerialMessage.h */,
+				5E557657B4BAC71DDF2C1F0253B71732 /* GattSerialMessage.m */,
+				54F3CE9B51CF266587539C35DB6AFCE2 /* GattSerialMessageRxAssembler.h */,
+				A913A23CE285B8C26B52D66E85BE7177 /* GattSerialMessageRxAssembler.m */,
+				7827903FB1118438E2F099147AD8EF68 /* GattSerialProfile.h */,
+				28307EEFD2342E6400F52F7CCE9AC4A8 /* GattSerialProfile.m */,
+				A7F5E5A109384A44A61414940CCE3A35 /* GattSerialTransport.h */,
+				259A229FC5308A6F02DD918EB152707C /* GattSerialTransport.m */,
+				ED76AC8CFDD9C420A5FA98FD75FE6787 /* GattTransport.h */,
+				1CA80D213B4EDAF77A6B47011BA2B406 /* GattTransport.m */,
+				3125B6DFD445CF50972D62E4BBD96571 /* NSData+CRC.h */,
+				FC464BEA0BED88E7A36F9B29B90AA2CE /* NSData+CRC.m */,
+				9EC62240697D44EE15F527BE423C9224 /* OadProfile.h */,
+				F163DED36A36959AFE06EAB52FED2395 /* OadProfile.m */,
+				AC3CDE934E2ACBCA86D4EC81EE653277 /* PTDBEAN_Helper.h */,
+				D6BFDDC3788AA020C9EAA0A93FB368E0 /* PTDBEAN_Helper.m */,
+				C5E237D9593D46E6CEE8505F36E8BD2B /* PTDBean.h */,
+				9774DC4929571DED025B52771A5E9B9B /* PTDBean.m */,
+				65A8926C16D525265BB133948AC5D96C /* PTDBean+Protected.h */,
+				D1CA40581260A62E68AF9561D4719FED /* PTDBeanManager.h */,
+				6B42AAB13743BEFB9A79B0BA63A65DC1 /* PTDBeanManager.m */,
+				B80DF58F09907D9C65FCCBE506DBF90C /* PTDBeanManager+Protected.h */,
+				AA82B507F028E6938B24290540EEE458 /* PTDBeanRadioConfig.h */,
+				4B2A7AAF4878CD9702E0555808AFCD8D /* PTDBeanRadioConfig.m */,
+				102A4CE2C9C8B6A6EBC936C0F83FFB8C /* PTDBeanRemoteFirmwareVersionManager.h */,
+				7B087A12A02B160F43C0DD4E9665C66D /* PTDBeanRemoteFirmwareVersionManager.m */,
+				3756F0B68017F7870301093C30A5B5D8 /* PTDBleDevice.h */,
+				FA9F879B6B8D016E13CCE9212A9C8FF3 /* PTDBleDevice.m */,
+				1318446ED61BDC5D241733F8FD6C12A6 /* ProfileDelegate_Protocol.h */,
+				8FC3D8CE11C90BE06E8FFE288091801D /* Profile_Protocol.h */,
+				B3B093E2E2958B21451492B70BC0AADB /* oad.h */,
+				9914620B6FBCFD1F1EDB424D7721ED5B /* Resources */,
+				D163DCF776B5B5197E7E7EAF7AE700B6 /* Support Files */,
+			);
+			path = "Bean-iOS-OSX-SDK";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1FF2DB0CD6A0A0E367ED5ED7484AF87C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A95D5B2C375A122CBB6C8D298D5D53 /* AppMessageTypes.h in Headers */,
+				759A3134B5495F04C8688ED6C6DCFE87 /* AppMessages.h in Headers */,
+				60E32054184D2E114C0E248312A5703C /* AppMessagingLayer.h in Headers */,
+				44C55AC6E5D9DE152675B609EE03BB21 /* BEAN_Globals.h in Headers */,
+				1C9BD05D537FCCE10281C53CBA7B4D8B /* BEAN_Helper.h in Headers */,
+				A2B0708DE52E00258D8D3393EF09B29F /* BatteryProfile.h in Headers */,
+				25985DA7EC565623467FAA18E7938395 /* BleProfile.h in Headers */,
+				F36CA8B9BDAF3699F38EEB119AB7809A /* CBPeripheral+RSSI_Universal.h in Headers */,
+				5EC159CD6EE6B9ECB7868CDE509FAC84 /* CBPeripheral+UniqueId.h in Headers */,
+				24BDA7320D89E573BE14857E54374699 /* CBPeripheral+isConnected_Universal.h in Headers */,
+				BF5C403134DC3E0B4216BF6648C5C510 /* DevInfoProfile.h in Headers */,
+				A7EE5902C051617F22C2154ABCCBD6D4 /* GattCharacteristicHandler.h in Headers */,
+				D3A09F6BE86BA74FAA8AA8F82EC57CD3 /* GattCharacteristicObserver.h in Headers */,
+				FFBB5A6BDF8B60CAD5F4F27BA49155CC /* GattPacket.h in Headers */,
+				1890347AEBBF3EC786A622C3ECE7B513 /* GattSerialMessage.h in Headers */,
+				CFA7E9D1F15F29572499353C74B69F6A /* GattSerialMessageRxAssembler.h in Headers */,
+				F031A36E6E7DCAB35BB77C057CEF2BB8 /* GattSerialProfile.h in Headers */,
+				7B0D70026696C04FA434D2FFEF4D23A1 /* GattSerialTransport.h in Headers */,
+				3355BA9EA5323F4C7D9A70B5627EC2F6 /* GattTransport.h in Headers */,
+				7BC1FC3AA86FABD8D1FE701B7AC65D80 /* NSData+CRC.h in Headers */,
+				E451B5420828FC571DFB6AC795519EC8 /* OadProfile.h in Headers */,
+				F087783C7234C624743436810F0CC3FF /* PTDBEAN_Helper.h in Headers */,
+				92E0761AEB2C18055FCFF911325D5E80 /* PTDBean+Protected.h in Headers */,
+				819BA8E3C42749A979EC15C72B276114 /* PTDBean.h in Headers */,
+				2C50C928C2C712C73A35146DEB6DA8AC /* PTDBeanManager+Protected.h in Headers */,
+				BA4EA051BAD2E6E214CE8DB2D0DF1CCC /* PTDBeanManager.h in Headers */,
+				5432B9BDEEDF5DD6DE00C0C7FCFC3276 /* PTDBeanRadioConfig.h in Headers */,
+				99163F62E52D6BCE4D28D61D38B826A2 /* PTDBeanRemoteFirmwareVersionManager.h in Headers */,
+				B8CBF9741B68EE4E4975D02BAF33ACB6 /* PTDBleDevice.h in Headers */,
+				4EB56008F432BF6822879E15384F62F3 /* ProfileDelegate_Protocol.h in Headers */,
+				17CE5332AD9CA156D836138EAD0D4D8A /* Profile_Protocol.h in Headers */,
+				5B9B90BF928CDF7A7F2A7EE5E6E7529B /* oad.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		002208781EA69C0251C9A2D877AA4F60 /* Bean-iOS-OSX-SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F6D64E8091F7458233E32638ADE0DA /* Build configuration list for PBXNativeTarget "Bean-iOS-OSX-SDK" */;
+			buildPhases = (
+				BE8673FBF39ECEF29F6322FBE00705E5 /* Sources */,
+				DBAD82F30570AD5CAB1DC0763DFFE0B0 /* Frameworks */,
+				1FF2DB0CD6A0A0E367ED5ED7484AF87C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bean-iOS-OSX-SDK";
+			productName = "Bean-iOS-OSX-SDK";
+			productReference = 0EA10C867752D8BE4459E968C7076408 /* libBean-iOS-OSX-SDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		572D2FE9BFA73B475159C5EFAE9FF8F2 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6C741FADDF283B9048E6F0A6FD75130 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				1ACDED9A8ADB3B25A295E87863376027 /* Sources */,
+				1A8257B134A175246287DF002B13A480 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D223ABE493917C8130FCD3059E41216 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 25533DA7952EFBDA8DECF835FBA6E18E /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				002208781EA69C0251C9A2D877AA4F60 /* Bean-iOS-OSX-SDK */,
+				572D2FE9BFA73B475159C5EFAE9FF8F2 /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ACDED9A8ADB3B25A295E87863376027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F386E32F2647CC4A5F5DE63EA60F8293 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE8673FBF39ECEF29F6322FBE00705E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892D0217812F07B21E803CCB7E6F6761 /* AppMessagingLayer.m in Sources */,
+				B08D82393118AA384CC18FB32EC775D9 /* BEAN_Helper.m in Sources */,
+				E8E855DD61E5C45C01FB7A74BEDC438B /* BatteryProfile.m in Sources */,
+				6EAB086EF4724228998F91179F0DB69C /* Bean-iOS-OSX-SDK-dummy.m in Sources */,
+				32444F1F4B0BD007DDBA1484F4B97EAC /* BleProfile.m in Sources */,
+				19C612B16F7027740F1217E7ABA2A9DA /* CBPeripheral+RSSI_Universal.m in Sources */,
+				E6A90BD37382E3BB7DD537C79F707EBB /* CBPeripheral+UniqueId.m in Sources */,
+				04CA4932E2A371B1B8CFB65A1CEAA7B3 /* CBPeripheral+isConnected_Universal.m in Sources */,
+				640A2DC02DB2CB26EE11C13C8FC79437 /* DevInfoProfile.m in Sources */,
+				DFF65F9524793D4FD98913FDA674A0A9 /* GattPacket.m in Sources */,
+				6C5E4FABD2D2F930B22FEF5E4DBD4DD6 /* GattSerialMessage.m in Sources */,
+				80C91975213731D5B39C3FA5A50B5B78 /* GattSerialMessageRxAssembler.m in Sources */,
+				C51557636F5A884E7A4891ABFE5CEBA3 /* GattSerialProfile.m in Sources */,
+				6554562DB6C7601EE2C142FE796F940A /* GattSerialTransport.m in Sources */,
+				7877357215BD9549573BFC78BB8F6B1E /* GattTransport.m in Sources */,
+				958E1DF1D1256A3867685A0383065A6F /* NSData+CRC.m in Sources */,
+				E2124EA382D4F8136FFD7A79704D4890 /* OadProfile.m in Sources */,
+				2E83CB9A39F1520DB2A6588CDECBCB04 /* PTDBEAN_Helper.m in Sources */,
+				C3D66C74845EA1C746705DEA05871670 /* PTDBean.m in Sources */,
+				E5B132A7608159E59D7AFEF5512BDC71 /* PTDBeanManager.m in Sources */,
+				006B90A73A63C68FB2A5CBA6670E3DD5 /* PTDBeanRadioConfig.m in Sources */,
+				62392D6D0FF507B87C9C67A0665A3A39 /* PTDBeanRemoteFirmwareVersionManager.m in Sources */,
+				28E4E6A3C4215DC0131BB19DDF29E446 /* PTDBleDevice.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D223ABE493917C8130FCD3059E41216 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Bean-iOS-OSX-SDK";
+			target = 002208781EA69C0251C9A2D877AA4F60 /* Bean-iOS-OSX-SDK */;
+			targetProxy = AC5E84348C336B7F305DEBF9337B8E01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DE4ACE3295FBBD6762B0655C5916A2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ABA3631114CBF789074CCE6FB5BA55C /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E2DE024E28DB2949B9FFBFD187868D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A981A6BCF51D74112FE245CF09A3B59C /* Bean-iOS-OSX-SDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Bean-iOS-OSX-SDK/Bean-iOS-OSX-SDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5348D5946FA39860955D5B64A78C526D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A981A6BCF51D74112FE245CF09A3B59C /* Bean-iOS-OSX-SDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Bean-iOS-OSX-SDK/Bean-iOS-OSX-SDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		91B263F9346272E1002441D50C05C1D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF558BE3B7BE8A15E62C4FDF14FF9BDC /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62F6D64E8091F7458233E32638ADE0DA /* Build configuration list for PBXNativeTarget "Bean-iOS-OSX-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5348D5946FA39860955D5B64A78C526D /* Debug */,
+				1E2DE024E28DB2949B9FFBFD187868D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6C741FADDF283B9048E6F0A6FD75130 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DE4ACE3295FBBD6762B0655C5916A2F /* Debug */,
+				91B263F9346272E1002441D50C05C1D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
