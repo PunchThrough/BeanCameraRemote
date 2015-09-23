@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5132A8288837B0235B9C8D67 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 387771EF1A11A1329E3DFC59 /* libPods.a */; };
 		FAA512A31BB0C61400810C4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA512A21BB0C61400810C4E /* main.m */; };
 		FAA512A61BB0C61400810C4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA512A51BB0C61400810C4E /* AppDelegate.m */; };
-		FAA512A91BB0C61400810C4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA512A81BB0C61400810C4E /* ViewController.m */; };
+		FAA512A91BB0C61400810C4E /* DeviceSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA512A81BB0C61400810C4E /* DeviceSelectionViewController.m */; };
 		FAA512AC1BB0C61400810C4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA512AA1BB0C61400810C4E /* Main.storyboard */; };
 		FAA512AE1BB0C61400810C4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA512AD1BB0C61400810C4E /* Images.xcassets */; };
 		FAA512B11BB0C61400810C4E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA512AF1BB0C61400810C4E /* LaunchScreen.xib */; };
 		FAA512BD1BB0C61400810C4E /* CameraRemoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA512BC1BB0C61400810C4E /* CameraRemoteTests.m */; };
+		FAA512CE1BB1C19C00810C4E /* LBBeanListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA512CD1BB1C19C00810C4E /* LBBeanListTableViewCell.m */; };
+		FAA512D11BB1C27200810C4E /* PTDSignalStrengthView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA512D01BB1C27200810C4E /* PTDSignalStrengthView.m */; };
+		FAA512D41BB233BE00810C4E /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA512D31BB233BE00810C4E /* CameraViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +31,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		387771EF1A11A1329E3DFC59 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A929891F145C6372D15DA638 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D9E734ED64F89A62937F057A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		FAA5129D1BB0C61400810C4E /* CameraRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA512A11BB0C61400810C4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAA512A21BB0C61400810C4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FAA512A41BB0C61400810C4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FAA512A51BB0C61400810C4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FAA512A71BB0C61400810C4E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FAA512A81BB0C61400810C4E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAA512A71BB0C61400810C4E /* DeviceSelectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceSelectionViewController.h; sourceTree = "<group>"; };
+		FAA512A81BB0C61400810C4E /* DeviceSelectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceSelectionViewController.m; sourceTree = "<group>"; };
 		FAA512AB1BB0C61400810C4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAA512AD1BB0C61400810C4E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FAA512B01BB0C61400810C4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FAA512B61BB0C61400810C4E /* CameraRemoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraRemoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA512BB1BB0C61400810C4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAA512BC1BB0C61400810C4E /* CameraRemoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraRemoteTests.m; sourceTree = "<group>"; };
+		FAA512CC1BB1C19C00810C4E /* LBBeanListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBeanListTableViewCell.h; sourceTree = "<group>"; };
+		FAA512CD1BB1C19C00810C4E /* LBBeanListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBeanListTableViewCell.m; sourceTree = "<group>"; };
+		FAA512CF1BB1C27200810C4E /* PTDSignalStrengthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTDSignalStrengthView.h; sourceTree = "<group>"; };
+		FAA512D01BB1C27200810C4E /* PTDSignalStrengthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTDSignalStrengthView.m; sourceTree = "<group>"; };
+		FAA512D21BB233BE00810C4E /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		FAA512D31BB233BE00810C4E /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5132A8288837B0235B9C8D67 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +74,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		076F680A61E4AFDB5515ECBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				387771EF1A11A1329E3DFC59 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C717BA7807148AAA48D32DBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9E734ED64F89A62937F057A /* Pods.debug.xcconfig */,
+				A929891F145C6372D15DA638 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FAA512941BB0C61400810C4E = {
 			isa = PBXGroup;
 			children = (
 				FAA5129F1BB0C61400810C4E /* CameraRemote */,
 				FAA512B91BB0C61400810C4E /* CameraRemoteTests */,
 				FAA5129E1BB0C61400810C4E /* Products */,
+				C717BA7807148AAA48D32DBD /* Pods */,
+				076F680A61E4AFDB5515ECBD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,10 +114,10 @@
 		FAA5129F1BB0C61400810C4E /* CameraRemote */ = {
 			isa = PBXGroup;
 			children = (
+				FAA512D51BB3221A00810C4E /* ViewControllers */,
+				FAA512D61BB3223200810C4E /* Views */,
 				FAA512A41BB0C61400810C4E /* AppDelegate.h */,
 				FAA512A51BB0C61400810C4E /* AppDelegate.m */,
-				FAA512A71BB0C61400810C4E /* ViewController.h */,
-				FAA512A81BB0C61400810C4E /* ViewController.m */,
 				FAA512AA1BB0C61400810C4E /* Main.storyboard */,
 				FAA512AD1BB0C61400810C4E /* Images.xcassets */,
 				FAA512AF1BB0C61400810C4E /* LaunchScreen.xib */,
@@ -119,6 +152,28 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FAA512D51BB3221A00810C4E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAA512D21BB233BE00810C4E /* CameraViewController.h */,
+				FAA512D31BB233BE00810C4E /* CameraViewController.m */,
+				FAA512A71BB0C61400810C4E /* DeviceSelectionViewController.h */,
+				FAA512A81BB0C61400810C4E /* DeviceSelectionViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FAA512D61BB3223200810C4E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAA512CC1BB1C19C00810C4E /* LBBeanListTableViewCell.h */,
+				FAA512CD1BB1C19C00810C4E /* LBBeanListTableViewCell.m */,
+				FAA512CF1BB1C27200810C4E /* PTDSignalStrengthView.h */,
+				FAA512D01BB1C27200810C4E /* PTDSignalStrengthView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAA512C01BB0C61400810C4E /* Build configuration list for PBXNativeTarget "CameraRemote" */;
 			buildPhases = (
+				029D0BEED4432E1C5DD9431E /* Check Pods Manifest.lock */,
 				FAA512991BB0C61400810C4E /* Sources */,
 				FAA5129A1BB0C61400810C4E /* Frameworks */,
 				FAA5129B1BB0C61400810C4E /* Resources */,
+				3242541B6B014A7A5C8A6201 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,14 +271,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		029D0BEED4432E1C5DD9431E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3242541B6B014A7A5C8A6201 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FAA512991BB0C61400810C4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAA512A91BB0C61400810C4E /* ViewController.m in Sources */,
+				FAA512A91BB0C61400810C4E /* DeviceSelectionViewController.m in Sources */,
 				FAA512A61BB0C61400810C4E /* AppDelegate.m in Sources */,
+				FAA512CE1BB1C19C00810C4E /* LBBeanListTableViewCell.m in Sources */,
 				FAA512A31BB0C61400810C4E /* main.m in Sources */,
+				FAA512D11BB1C27200810C4E /* PTDSignalStrengthView.m in Sources */,
+				FAA512D41BB233BE00810C4E /* CameraViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +440,7 @@
 		};
 		FAA512C11BB0C61400810C4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9E734ED64F89A62937F057A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CameraRemote/Info.plist;
@@ -357,6 +451,7 @@
 		};
 		FAA512C21BB0C61400810C4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A929891F145C6372D15DA638 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CameraRemote/Info.plist;
@@ -418,6 +513,7 @@
 				FAA512C21BB0C61400810C4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAA512C31BB0C61400810C4E /* Build configuration list for PBXNativeTarget "CameraRemoteTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +522,7 @@
 				FAA512C51BB0C61400810C4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
